@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Información personal</p>
+<form action="/action_page.php">
+    <fieldset>
+  Apellidos:
+  <input type="text" name="apellidos">
+  <br>
+  Nombre:
+  <input type="text" name="nombre">
+    <br>
+    Dirección:
+    <input type="text" name="dirección">
+</fieldset>
+  <br>
+    <p>Sistema operativo</p>
+    <fieldset>
+    <select name="so">
+    <option value="GNU/Linux">GNU/Linux</option>
+    <option value="Windows">Windows</option>
+    <option value="Mac">Mac</option>    
+    </select>
+        </fieldset>
+    <br>
+    <p>Ordenador personal</p>
+    <fieldset>
+        <p>¿Tienes ordenador en tu casa?</p>
+    <input type="radio" name="opcion1" value="si"> Si<br>    
+    <input type="radio" name="opcion2" value="no" checked> No<br>
+        <p>Si tienes ordenador escribe sus caracteristicas principales:</p>
+    <textarea name="message" rows="10" cols="40"></textarea>
+        <br>
+  <input type="submit">
+  
+    </fieldset>
+</form> 
+
+
+
+</body>
+</html>

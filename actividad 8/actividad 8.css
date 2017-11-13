@@ -1,0 +1,22 @@
+div {
+  margin: .4em 0;
+}
+div label {
+  width: 25%;
+  float: left;
+}
+#f1 {
+    background-color: lightyellow;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+}
+
+#bp {
+    background-color: red;
+    
+}
+#ar {
+    background-color: blueviolet;
+    
+}

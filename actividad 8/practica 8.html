@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="actividad 8.css">  
+<head>
+    
+    <script>
+window.onload = function() {
+    var files = document.querySelectorAll("input[type=file]");
+    files[0].addEventListener("change", function(e) {
+        if(this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) { document.getElementById("preview").setAttribute("src", e.target.result); }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+}
+</script> 
+    </head>
+<body>
+<form action="/action_page.php">
+    <fieldset id="f1">
+        <legend>Tu cara</legend>
+        <div>
+      <label for="foto">Foto:</label> 
+<form method="post" action="accion.php" enctype="multipart/form-data">
+<input name="imagen" type="file" />
+</form>
+            </div>
+        <div>
+    <label for="pi">Previsualización de imagen:</label> 
+    </div>
+</fieldset>
+  <br>
+    <fieldset id="f1">
+        <legend>Datos generales</legend>
+        <div>
+        <label for="nombre">Nombre:</label> 
+        <input type="text" name="nombre" placeholder="Nombre Completo"><br>
+        </div>
+        <div>
+        <label for="genero">Género:</label> 
+  <input type="radio" name="gender" value="male" checked> Hombre
+  <input type="radio" name="gender" value="female"> Mujer
+
+        </div>
+        <div>
+        <label for="edad">Edad:</label> 
+        <input type="text" name="edad" placeholder="18"><br>
+        </div>
+        <div>
+       <label for="fn">Fecha de nacimiento:</label> 
+        <input type="text" name="FN" placeholder="dd/mm/aa"><br>
+        </div>
+        <div>
+            <form action="/action_page.php">
+        <label for="cf">Color favorito:</label> 
+  <input type="color" name="favcolor" value="#000000">
+</form>
+        </div>
+        <div>
+        <label for="pais">País:</label> 
+               <select name="pais">
+    <option value="canada">Canadá</option>
+    <option value="mexico">México</option>
+    <option value="colombia">Colombia</option>
+            </select>
+        
+        
+        </div>
+        </fieldset>
+    <br>
+    <fieldset id="f1">
+        <legend>Otras características</legend>
+        <div>
+        <label for="altura">Altura:</label> 
+        <span id="bp">Bajo</span><input type="range" name="points" min="0" max="10"><span id="ar">Alto</span><br>
+            <label for="salario">Salario:</label> 
+        <span id="bp">Pobre</span><input type="range" name="points" min="0" max="10"><span id="ar">Rico</span><br>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset id="f1">
+    <legend>Información de contacto</legend>
+        <div>
+     <label for="email">Email:</label>    
+      <input type="email" name="email"><br>
+    <label for="movil">Móvil</label>    
+      <input type="tel" name="usrtel"><br>
+    <label for="direccion">Dirección</label>        
+            <textarea name="message" rows="4" cols="60"></textarea><br>
+    <label for="mc">Método de contacto</label>
+    <input type="radio" name="metodo" value="email"> Email
+    <input type="radio" name="metodo2" value="whatsapp"> Whatsapp
+    <input type="radio" name="metodo3" value="skype"> Skype
+
+            
+    </div>
+    </fieldset>
+    
+</form> 
+
+
+
+</body>
+</html>

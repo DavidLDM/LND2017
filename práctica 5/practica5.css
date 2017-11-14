@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #af0758;
+    font-family: "Times New Roman", serif;
+}
+
+#sp1 {
+    color: #a103ba;   
+}
+
+#sp2 {
+    color: green;   
+}
+
+ul {
+    color: yellow;
+    font-family: "Courer New", monospace;
+}
+
+li {
+        background-color: grey;
+}

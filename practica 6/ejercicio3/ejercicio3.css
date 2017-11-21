@@ -1,0 +1,19 @@
+#p1 {
+    color: blue;
+}
+
+#p2 {
+    font-family: Verdana, sans-serif;
+    color: red;
+}
+
+#p3 {
+    color: red;
+    text-align: justify;
+    font-size: 300%;
+}
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+}

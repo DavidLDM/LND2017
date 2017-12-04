@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+	<link>https://elpais.com/tag/educacion/a</link>
+	<title>Noticias educativas</title>
+	<description>Noticias actuales sobre educacion</description>
+		<item>
+			<title>Evacuados más de 1.500 alumnos de los centros educativos de Caudete tras un seismo de magnitud 4</title>
+			<link>https://politica.elpais.com/politica/2017/12/04/actualidad/1512393780_251491.html</link>
+			<description>El terremoto se ha registrado a las 9.47 a 12 kilómetros de profundidad en la provincia de Albacete</description>
+		</item>
+		<item>
+  <title>Madrid no entra en la guerra de los deberes</title>
+  <link>https://elpais.com/ccaa/2017/12/04/madrid/1512390776_645642.html</link>
+  <description>La Comunidad opta por que cada centro consensúe su propia política de deberes</description>
+		</item>
+		<item>
+      <title>Los lenguajes de programación para niños cumplen medio siglo</title>
+      <link>https://elpais.com/tecnologia/2017/12/04/actualidad/1512373927_807732.html</link>
+		<description>Los mas pequeños de la casa han pasado de mover una sencilla tortuga en la pantalla del ordenador en los años 60 a ser capaces de hacer volar minidrones</description>
+		</item>
+	</channel>
+</rss>

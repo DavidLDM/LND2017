@@ -1,0 +1,100 @@
+.little, i.little{
+        font-size: 16px;
+}
+.medium, i.medium{
+        color: blue;
+        font-size: 24px;
+        font-family: 'PT Sans', sans-serif;
+}
+.big, i.big{
+        font-size: 50px;
+}
+
+
+h1 {
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+body {
+background-image: url("fondo.jpg");
+}
+
+header {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#logo {
+    padding-left: 440px;
+    
+    
+}
+    
+
+
+#contenidobestiario {
+font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border-radius: 15px;
+    background: -moz-linear-gradient(purple, black);
+    padding-right: 100px;
+    
+}
+#tiposdemonstruos {
+    font-family: 'Josefin Sans', sans-serif;
+     color: white;
+    border-radius: 15px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#d1 {
+top:10px;
+left:150px;
+margin-left: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    border-radius: 15px;
+    float: left;
+    border-right:1px solid #bbb;
+        background-color: #333;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    border-radius: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.flex-container {
+    display: flex;
+  flex-flow: row wrap;
+
+}
+
+
+
+
+

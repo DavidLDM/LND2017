@@ -48,6 +48,11 @@ font-family: 'Josefin Sans', sans-serif;
         border-radius: 15px;
 }
 
+#identificador {
+        background-color: white;
+        border-radius: 15px;
+}
+
 
 #d1 {
 top:10px;

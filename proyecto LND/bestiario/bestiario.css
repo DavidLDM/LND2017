@@ -1,4 +1,4 @@
-.little, i.little{
+little, i.little{
         font-size: 16px;
 }
 .medium, i.medium{
@@ -88,10 +88,18 @@ li a:hover:not(.active) {
     background-color: red;
 }
 
-.flex-container {
-    display: flex;
-  flex-flow: row wrap;
+.columna1{
+  width: 100%;
+}
 
+@media (min-width: 600px) {
+.columna1
+  
+}
+
+@media (min-width: 800px) {
+.columna1
+  
 }
 
 

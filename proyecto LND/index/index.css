@@ -82,20 +82,21 @@ li a:hover:not(.active) {
 
 .container{
   width: 100%;
-  flex-flow: row wrap;      
+  flex-flow: row wrap;  
+}
+
+.columna1{
+  width: 100%;
 }
 
 @media (min-width: 600px) {
-.columna1{
-        
-  width: 100%;
-        }
-  
+  .columna1{
+    width: 50%;
+  }
 }
 
 @media (min-width: 800px) {
-.columna1
-  
-}
-
+  .columna1 { width: 60%; }
+    width: 33.3%;
+  }
 

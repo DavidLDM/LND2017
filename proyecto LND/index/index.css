@@ -80,13 +80,16 @@ li a:hover:not(.active) {
     background-color: red;
 }
 
-.columna1{
+.container{
   width: 100%;
   flex-flow: row wrap;      
 }
 
 @media (min-width: 600px) {
-.columna1
+.columna1{
+        
+  width: 100%;
+        }
   
 }
 

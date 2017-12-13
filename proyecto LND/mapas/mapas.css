@@ -90,6 +90,7 @@ li a:hover:not(.active) {
 
 .columna1{
   width: 100%;
+   flex-flow: row wrap;      
 }
 
 @media (min-width: 600px) {

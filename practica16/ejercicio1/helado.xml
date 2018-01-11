@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helado xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "helado.xsd">
+<tipo>polo</tipo>
+<sabor>fresa</sabor>
+</helado>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<documento xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "ejercicio3.xsd">
+<nombre_entidad>Bankia</nombre_entidad>
+
+<fecha>2011-02-02</fecha>
+
+<datos>
+<id>647837</id>
+<nombre>David</nombre>
+<apellidos>MartinezMontero</apellidos>
+<telefono>928527348</telefono>
+<direccion>
+<tipo_calle>calle</tipo_calle>
+<nombre_calle>LosPoceros</nombre_calle>
+<numero>27</numero>
+<piso_letra>x0</piso_letra>
+<cp>35600</cp>
+<localidad>PuertodelRosario</localidad>
+<provincia>LasPalmas</provincia>
+</direccion>
+</datos>
+
+<prestamos>
+<num_prestamo>33545</num_prestamo>
+<concepto>Hipoteca</concepto>
+<cantidad>2000</cantidad>
+</prestamos>
+
+</documento>

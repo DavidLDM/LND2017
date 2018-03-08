@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<discografica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="musica.xsd">
+  <albumes>
+    <album nombre="Master of Puppets">
+    <grupo>Metallica</grupo>
+    <generos>
+      <genero>Heavy Metal</genero>
+      <genero>Trash Metal</genero>
+    </generos>
+    <integrantes>
+      <integrante>James Hetfield</integrante>
+      <integrante>Lars Ulrich</integrante>
+      <integrante>Kirk Hammet</integrante>
+      <integrante>Cliff Burton</integrante>
+    </integrantes>
+    <canciones>
+      <cancion>Battery</cancion>
+      <cancion>Master Of Puppets</cancion>
+      <cancion>The Thing That Should Not Be</cancion>
+      <cancion>Welcome Home</cancion>
+      <cancion>Disposable Heroes</cancion>
+      <cancion>Leper Messiah</cancion>
+      <cancion>Orion</cancion>
+      <cancion>Damage Inc</cancion>
+    </canciones>
+      <duracion>54</duracion>
+      <publicacion>1986-02-03</publicacion>
+      <ventas>30000000</ventas>
+      <estado>Activo</estado>
+      <formatos>
+      <formato>CD</formato>
+      <formato>Vinilo</formato>
+      <formato>Digital</formato>
+      </formatos>
+      <precio>19</precio>
+    </album>
+    
+    
+    <album nombre="Appetite for Destruction">
+    <grupo>Guns n Roses</grupo>
+    <generos>
+      <genero>Hard Rock</genero>
+      <genero>Heavy Metal</genero>
+      <genero>Sleaze Rock</genero>
+    </generos>
+    <integrantes>
+      <integrante>Axl Rose</integrante>
+      <integrante>Slash</integrante>
+      <integrante>Duff McKagan</integrante>
+      <integrante>Izzy Stradlin</integrante>
+      <integrante>Steven Adler</integrante>
+    </integrantes>
+    <canciones>
+      <cancion>Welcome to the Jungle</cancion>
+      <cancion>Its So Easy</cancion>
+      <cancion>Nightrain</cancion>
+      <cancion>Out Ta Get Me</cancion>
+      <cancion>Mr Brownstone</cancion>
+      <cancion>Paradise City</cancion>
+      <cancion>My Michelle</cancion>
+      <cancion>Think About You</cancion>
+      <cancion>Sweet Child o Mine</cancion>
+      <cancion>You re Crazy</cancion>
+      <cancion>Anything Goes</cancion>
+      <cancion>Rocket Queen</cancion>
+    </canciones>
+      <duracion>53</duracion>
+      <publicacion>1987-06-07</publicacion>
+      <ventas>10000000</ventas>
+      <estado>Activo</estado>
+      <formatos>
+      <formato>CD</formato>
+      <formato>Vinilo</formato>
+      <formato>Digital</formato>
+      </formatos>
+      <precio>15</precio>
+    </album>
+    
+    
+    <album nombre="Slave to the Grind">
+    <grupo>Skid Row</grupo>
+    <generos>
+      <genero>Heavy Metal</genero>
+    </generos>
+    <integrantes>
+      <integrante>Sebastian Bach</integrante>
+      <integrante>Rachel Bolan</integrante>
+      <integrante>Dave Sabo</integrante>
+      <integrante>Scotti Hill</integrante>
+      <integrante>Rob Affuso</integrante>
+    </integrantes>
+    <canciones>
+      <cancion>Monkey Business</cancion>
+      <cancion>Slave to the Grind</cancion>
+      <cancion>The Threat</cancion>
+      <cancion>Quicksand Jesus</cancion>
+      <cancion>Psycho Love</cancion>
+      <cancion>Get the Fuck Out</cancion>
+      <cancion>Livin on a Chain Gang</cancion>
+      <cancion>Creepshow</cancion>
+      <cancion>In a Darkened Room</cancion>
+      <cancion>Riot Act</cancion>
+      <cancion>Mudkicker</cancion>
+      <cancion>Wasted Time</cancion>
+    </canciones>
+      <duracion>50</duracion>
+      <publicacion>1991-08-06</publicacion>
+      <ventas>8000000</ventas>
+      <estado>Inactivo</estado>
+      <formatos>
+      <formato>CD</formato>
+      <formato>Vinilo</formato>
+      <formato>Casete</formato>
+      <formato>Digital</formato>
+      </formatos>
+      <precio>25</precio>
+    </album>
+    
+    
+    <album nombre="Back in Black">
+    <grupo>AC DC</grupo>
+    <generos>
+      <genero>Hard Rock</genero>
+    </generos>
+    <integrantes>
+      <integrante>Brian Johnson</integrante>
+      <integrante>Angus Young</integrante>
+      <integrante>Malcolm Young</integrante>
+      <integrante>Cliff Williams</integrante>
+      <integrante>Phil Rudd</integrante>
+    </integrantes>
+    <canciones>
+      <cancion>Hells Bells</cancion>
+      <cancion>Shoot to Thrill</cancion>
+      <cancion>What Do You Do for Money Honey</cancion>
+      <cancion>Given The Dog a Bone</cancion>
+      <cancion>Let Me Put my Love Into You</cancion>
+      <cancion>Back In Black</cancion>
+      <cancion>You Shook Me All Night Long</cancion>
+      <cancion>Have a Drink on Me</cancion>
+      <cancion>Shake a Leg</cancion>
+      <cancion>Rock n Roll Ain t Noise Pollution</cancion>
+    </canciones>
+      <duracion>41</duracion>
+      <publicacion>1980-12-12</publicacion>
+      <ventas>22000000</ventas>
+      <estado>Activo</estado>
+      <formatos>
+      <formato>CD</formato>
+      <formato>Vinilo</formato>
+      <formato>Digital</formato>
+      <formato>Casete</formato>
+      <formato>DualDisc</formato>
+      </formatos>
+      <precio>20</precio>
+    </album>
+    
+    
+        <album nombre="Cowboys from Hell">
+    <grupo>Pantera</grupo>
+    <generos>
+      <genero>Groove Metal</genero>
+      <genero>Trash Metal</genero>
+      <genero>Heavy Metal</genero>
+    </generos>
+    <integrantes>
+      <integrante>Phill Anselmo</integrante>
+      <integrante>Dimebag Darrell</integrante>
+      <integrante>Rex Brown</integrante>
+      <integrante>Vinnie Paul</integrante>
+      <integrante>Terry Date</integrante>
+    </integrantes>
+    <canciones>
+      <cancion>Cowboys from Hell</cancion>
+      <cancion>Primal Concrete Sledge</cancion>
+      <cancion>Psycho Holiday</cancion>
+      <cancion>Heresy</cancion>
+      <cancion>Cemetery Gates</cancion>
+      <cancion>Domination</cancion>
+      <cancion>Shattered</cancion>
+      <cancion>Clash with Reality</cancion>
+      <cancion>Medicine Man</cancion>
+      <cancion>Message in Blood</cancion>
+      <cancion>The Sleep</cancion>
+      <cancion>The Art of Shredding</cancion>
+    </canciones>
+      <duracion>57</duracion>
+      <publicacion>1990-11-11</publicacion>
+      <ventas>20000000</ventas>
+      <estado>Activo</estado>
+      <formatos>
+      <formato>CD</formato>
+      <formato>Vinilo</formato>
+      <formato>Digital</formato>
+      </formatos>
+      <precio>17</precio>
+    </album>
+  </albumes>
+</discografica>

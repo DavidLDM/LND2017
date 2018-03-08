@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!--Simples-->
+
+
+<xs:element name="duracion" type="xs:integer"/>
+<xs:element name="publicacion" type="xs:date"/>
+<xs:element name="precio" type="xs:integer"/>
+<xs:element name="ventas" type="xs:integer"/>
+
+<xs:element name="grupo">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z A-Z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>    
+
+<xs:element name="genero">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z A-Z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>  
+
+<xs:element name="cancion">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z A-Z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>  
+
+<xs:element name="integrante">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z A-Z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>  
+
+<xs:element name="estado">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Activo|Inactivo"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>   
+
+<xs:element name="formato">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>   
+
+
+
+<!--Complex-->
+
+<xs:element name="discografica">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="albumes" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="albumes">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="album" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="album">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="grupo" maxOccurs="1"/>
+<xs:element ref="generos" minOccurs="1" maxOccurs="unbounded"/>
+<xs:element ref="integrantes" minOccurs="1" maxOccurs="unbounded"/>
+<xs:element ref="canciones" minOccurs="1" maxOccurs="unbounded"/>
+<xs:element ref="duracion"/>
+<xs:element ref="publicacion"/>
+<xs:element ref="ventas"/>
+<xs:element ref="estado"/>
+<xs:element ref="formatos" minOccurs="1" maxOccurs="unbounded"/>
+<xs:element ref="precio"/>
+</xs:sequence>
+<xs:attribute name="nombre" type="xs:string" use="required"/>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="generos">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="genero" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="integrantes">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="integrante" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="canciones">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="cancion" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="formatos">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="formato" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

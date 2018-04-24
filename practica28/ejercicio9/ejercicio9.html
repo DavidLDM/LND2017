@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var frase = prompt("Introducir palabra");
+            var mayus = false;
+            var minus = false;
+            
+            
+            function mayusculas(letra){
+                
+                return letra === letra.toUpperCase();
+            }
+            
+            
+            function minusculas(letra){
+                
+                return letra === letra.toLowerCase();
+                
+            }
+            
+            for(var i = 0; i < frase.length; i++){
+                
+                var letraActual = frase.charAt(i);
+                if(mayusculas(letraActual)){
+                    
+                    mayus=true;
+                    
+                }
+                
+                if(minusculas(letraActual)){
+                    
+                    minus=true;
+                    
+                }
+            }
+            
+                if(mayus==true && minus==true){
+                    
+                    alert("Tienes mayusculas y minusculas");
+                    
+                }else if(mayus==true){
+                    
+                    alert("Contiene mayusculas");
+                    
+                }else alert("Contiene minusculas");
+                
+        </script>
+    </body>
+</html>

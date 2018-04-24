@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        var numero=prompt("Escribe un numero");  
+        var indice=numero;    
+        var valor=1;      
+
+        function recursividad(){
+            
+            if(indice!=1){
+                
+                valor=valor*indice;
+                indice-=1;
+                recursividad();
+               }
+            }
+            
+                recursividad();
+                alert(valor);
+        </script>
+    </body>
+</html>

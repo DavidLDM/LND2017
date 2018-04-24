@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            
+            //Guardamos las posibles letras del DNI en un array
+            var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+            //"prompt" nos pedirá que insertemos el número de nuestro DNI
+            var NDNI = prompt("Inserte el numero de su DNI");
+            
+            //Si el número no es válido, no nos pedirá nada mas
+            if(NDNI < 0 || NDNI > 99999999) {
+                
+                alert("El numero proporcionado no es valido");
+            }
+            //Si el número es válido, continuará pidiéndonos la letra del DNI
+            else if(NDNI > 0|| NDNI < 99999999){
+               /*Si la letra coincide con la posición de alguna de las letras del array, nos dirñá quees correcto, en caso
+                contrario nos dirá que es incorrecto*/
+                var resto = (NDNI % 23);                           
+            
+                var LDNI = prompt("Inserte la letra de su DNI");
+            
+                if(LDNI == letras[resto])
+               
+                    alert('EL DNI es correcto');
+                else
+                    alert('El DNI no es correcto');
+            }
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var fin = false;
+        var amigos = [];
+        var amigo2;
+        do {
+            amigo2 = prompt("Introduce los nombres:");
+            if (amigo2 == "fin") {
+                break;
+            }
+            else {
+                amigos.push(amigo2);
+            }
+        }
+        while (fin != true);
+        for (var value of amigos) {
+            document.write("" + value + "<br>");
+        }
+    </script>
+</body>
+
+</html>

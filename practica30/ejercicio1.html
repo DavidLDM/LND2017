@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var cars = ["BMW", "Volvo", "Saab", "Ford"];
+        var text = "";
+        var i = 0;
+        while (i < 4) {
+            text += cars[i] + "<br>";
+            i++;
+        }
+        
+        /*Reemplaza el contenido de "<p>" por un string vacío*/
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>

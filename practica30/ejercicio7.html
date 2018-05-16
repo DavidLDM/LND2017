@@ -1,0 +1,42 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <body>
+        <script>
+            var bebida = [];
+            var bebida2 =[];
+            var respuesta="";
+            var index=0;
+            var posicion=0;
+            
+            bebida2[0]="Cocacola";
+            bebida2[1]="Nestea";
+            bebida2[2]="Clipper";
+            
+            
+            do{
+             respuesta = prompt("¿Te gusta la bebida "+bebida2[index]+"?");                   
+                if(respuesta!="si"){
+                    index+=1;
+                    continue;
+
+                }
+                
+                 bebida[posicion]=bebida2[index];
+                index+=1;
+                posicion+=1;
+                               
+            }while(index!=3);
+            if(bebida.length!=0){
+                
+        document.write(bebida.length);
+        
+        for(var value of bebida){
+        document.write(" "+value);
+        }
+            }else document.write("No te gusta ninguna bebida");
+
+            
+        </script>
+        
+    </body>
+</html>

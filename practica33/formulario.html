@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Envío y facturazión</title>
+    <style>
+        input {
+            border: 1px solid black;
+        }
+        
+        input:focus {
+            background-color: #E6E6E6;
+        }
+        
+        fieldset {
+            margin-bottom: 4%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formularios JavaScript</h1>
+    <form>
+        <fieldset>
+            <legend>Información de envío</legend>
+            <label for="shippingName">Nombre:</label>
+            <input type="text" name="shipName" id="shippingName" required>
+            <br/>
+            <label for="shippingZip">Código postal:</label>
+            <input type="text" name="shipZip" id="shippingZip" pattern="[0-9]{5}" required>
+            <br/> </fieldset>
+        <input type="checkbox" id="same" name="same" onchange="billingFunction()" />
+        <label for="same">Misma dirección de facturación</label>
+        <fieldset>
+            <legend>Información de facturación</legend>
+            <label for="billingName">Nombre:</label>
+            <input type="text" name="billName" id="billingName" required>
+            <br/>
+            <label for="billingZip">Código postal:</label>
+            <input type="text" name="billZip" id="billingZip" pattern="[0-9]{5}" required>
+            <br/> </fieldset>
+        <input type="submit" value="Verificar" /> </form>
+    <script>
+        function billingFunction() {
+            var usuario;
+            usuario = document.getElementById("shippingName").value;
+            document.getElementById("billingName").value = usuario;
+            var contraseña;
+            contraseña = document.getElementById("shippingZip").value;
+            document.getElementById("billingZip").value = contraseña;
+        }
+    </script>
+</body>

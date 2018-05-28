@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#"> <img src="icono.jpg" alt="logo" style="width:40px;"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link" href="pagina1.html">Pagina 1</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="pagina2.html">Pagina 2</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="pagina3.html">Pagina 3</a> </li>
+            </ul>
+        </div>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container">
+        <div class="col-sm-3">
+            <h2>Dropdowns</h2>
+            <p>The .dropdown class is used to indicate a dropdown menu.</p>
+            <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
+            <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown button </button>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="#">Link 1</a> <a class="dropdown-item" href="#">Link 2</a> <a class="dropdown-item" href="#">Link 3</a> </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h2>Button Styles</h2>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+    </div>
+</body>
+
+</html>
